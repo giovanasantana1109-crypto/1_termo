@@ -79,10 +79,10 @@
 # exercicio 4
 
 #  versão errada
-4. Esquecimento Fatal
-usuario = "aluno123"
-if usuario == "aluno123"
-print("Login realizado com sucesso.")
+# 4. Esquecimento Fatal
+# usuario = "aluno123"
+# if usuario == "aluno123"
+# print("Login realizado com sucesso.")
 
 
 #  versão corrigida
@@ -92,5 +92,96 @@ print("Login realizado com sucesso.")
 
 
 #  versão melhorada
+# usuario = ("ALUNO123")
+# if usuario == "ALUNO123":
+#     print("Login do aluno realizado com sucesso !")
+
+# exercicio 5
+
+# versão erro
+# 5. Atribuição vs. Comparação
+# clima = "ensolarado"
+# if clima = "chuvoso":
+# print("Leve um guarda-chuva!")
+
+# versão corrigida
+# clima = "ensolarado"
+# if clima == "chuvoso":
+#     print("Leve um guarda-chuva! ")
+
+# versão melhorada
+
+# clima = input("Está chuvendo hoje? sim/não  ")
+
+# if clima == "sim":
+#     print("Está chuvendo, então leve guarda-chuva! ")
+# elif clima == "não":
+#     print("Está ensolarado, então não leve guarda-chuva :) ")
+# else:
+#     print("ERRO na sua resposta. A resposta só pode ser 'sim' ou 'não'")
+
+
+# exercicio 6
+# versão errada
+# 6. Misturando Alhos com Bugalhos
+# pontos = 50
+# print("Parabéns! Você fez " + pontos + " pontos.")
+
+# versão corrigida
+# pontos = 50
+# print(f"Parabéns! Você fez {pontos} pontos.")
+
+
+# versão melhorada
+# pontos = int(input("Quantos pontos você fez na prova de português que a nota é de 0 à 100 ? "))
+
+# if pontos <= 40:
+#     print("Você ficou à abaixo da média, estude um pouco mais para a proxima prova ")
+# elif pontos >= 60:
+#     print("Ficou acima da média, continue assim ! O seu esforça vale apena :) ")
+# elif pontos == 50:
+#     print("Você ficou na média ")
+# else:
+#     print("ERRO, digite a nota que você tirou! ")
+
+# exercicio 7
+
+# versão errada
+
+# 7. A Ordem dos Fatores
+# O sistema deve dar "Excelente" para notas 9 ou 10.
+# nota = 9.5
+# if nota >= 7:
+# print("Aprovado")
+# elif nota >= 9:
+# print("Excelente!")
+
+
+# versão corrigida 
+# nota = 9.5
+# if nota >= 7:
+#     print("Aprovado")
+# elif nota >= 9:
+#     print("Excelente!")
+
+
+# versão melhorada
+# nota = int(input("Qual foi sua nota de 0 á 10 em Biologia ? "))
+
+# for nota in range(5, 8):
+#     if nota  (5,6,7,8):
+#         print("Aprovado")
+
+# for nota in range(9,10):
+#     elif nota (9,10):
+# print("EXELÊNTE")
+
+# for nota in range(0,4):
+
+# elif nota  (0,1,2,3,4):
+#     print("Você foi reprovado, irá precisar de recuperação")
+
+# else:
+#     print("ERRO, digite a sua nota de 0 à 10, por favor ! ")
 
 
