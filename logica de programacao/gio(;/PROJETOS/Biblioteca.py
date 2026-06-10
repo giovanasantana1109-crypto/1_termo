@@ -84,9 +84,5 @@ lbl_dias.grid (row=9, column=0, pady=20, padx=20)
 
 
 
-
-
-
-
 janela.mainloop()
     
